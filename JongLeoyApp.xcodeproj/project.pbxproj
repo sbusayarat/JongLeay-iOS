@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCEEF3D51C4CB97200F0BE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF3D41C4CB97200F0BE92 /* AppDelegate.swift */; };
+		FCEEF3D71C4CB97200F0BE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF3D61C4CB97200F0BE92 /* ViewController.swift */; };
+		FCEEF3DA1C4CB97200F0BE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEEF3D81C4CB97200F0BE92 /* Main.storyboard */; };
+		FCEEF3DC1C4CB97200F0BE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEEF3DB1C4CB97200F0BE92 /* Assets.xcassets */; };
+		FCEEF3DF1C4CB97200F0BE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEEF3DD1C4CB97200F0BE92 /* LaunchScreen.storyboard */; };
+		FCEEF3EA1C4CB97200F0BE92 /* JongLeoyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF3E91C4CB97200F0BE92 /* JongLeoyAppTests.swift */; };
+		FCEEF3F51C4CB97200F0BE92 /* JongLeoyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF3F41C4CB97200F0BE92 /* JongLeoyAppUITests.swift */; };
+		FCEEF4031C4CC32A00F0BE92 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF4021C4CC32A00F0BE92 /* Shop.swift */; };
+		FCEEF4051C4CC51C00F0BE92 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF4041C4CC51C00F0BE92 /* ShopTableViewCell.swift */; };
+		FCEEF4071C4CC68800F0BE92 /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEF4061C4CC68800F0BE92 /* ShopTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEEF3E61C4CB97200F0BE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEEF3C91C4CB97200F0BE92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEEF3D01C4CB97200F0BE92;
+			remoteInfo = JongLeoyApp;
+		};
+		FCEEF3F11C4CB97200F0BE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEEF3C91C4CB97200F0BE92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEEF3D01C4CB97200F0BE92;
+			remoteInfo = JongLeoyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCEEF3D11C4CB97200F0BE92 /* JongLeoyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JongLeoyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEF3D41C4CB97200F0BE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCEEF3D61C4CB97200F0BE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCEEF3D91C4CB97200F0BE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCEEF3DB1C4CB97200F0BE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCEEF3DE1C4CB97200F0BE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCEEF3E01C4CB97200F0BE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEEF3E51C4CB97200F0BE92 /* JongLeoyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JongLeoyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEF3E91C4CB97200F0BE92 /* JongLeoyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongLeoyAppTests.swift; sourceTree = "<group>"; };
+		FCEEF3EB1C4CB97200F0BE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEEF3F01C4CB97200F0BE92 /* JongLeoyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JongLeoyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEF3F41C4CB97200F0BE92 /* JongLeoyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongLeoyAppUITests.swift; sourceTree = "<group>"; };
+		FCEEF3F61C4CB97200F0BE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEEF4021C4CC32A00F0BE92 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		FCEEF4041C4CC51C00F0BE92 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		FCEEF4061C4CC68800F0BE92 /* ShopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEEF3CE1C4CB97200F0BE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3E21C4CB97200F0BE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3ED1C4CB97200F0BE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEEF3C81C4CB97200F0BE92 = {
+			isa = PBXGroup;
+			children = (
+				FCEEF3D31C4CB97200F0BE92 /* JongLeoyApp */,
+				FCEEF3E81C4CB97200F0BE92 /* JongLeoyAppTests */,
+				FCEEF3F31C4CB97200F0BE92 /* JongLeoyAppUITests */,
+				FCEEF3D21C4CB97200F0BE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEEF3D21C4CB97200F0BE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEF3D11C4CB97200F0BE92 /* JongLeoyApp.app */,
+				FCEEF3E51C4CB97200F0BE92 /* JongLeoyAppTests.xctest */,
+				FCEEF3F01C4CB97200F0BE92 /* JongLeoyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEEF3D31C4CB97200F0BE92 /* JongLeoyApp */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEF3D41C4CB97200F0BE92 /* AppDelegate.swift */,
+				FCEEF3D61C4CB97200F0BE92 /* ViewController.swift */,
+				FCEEF3D81C4CB97200F0BE92 /* Main.storyboard */,
+				FCEEF4061C4CC68800F0BE92 /* ShopTableViewController.swift */,
+				FCEEF4041C4CC51C00F0BE92 /* ShopTableViewCell.swift */,
+				FCEEF4021C4CC32A00F0BE92 /* Shop.swift */,
+				FCEEF3DB1C4CB97200F0BE92 /* Assets.xcassets */,
+				FCEEF3DD1C4CB97200F0BE92 /* LaunchScreen.storyboard */,
+				FCEEF3E01C4CB97200F0BE92 /* Info.plist */,
+			);
+			path = JongLeoyApp;
+			sourceTree = "<group>";
+		};
+		FCEEF3E81C4CB97200F0BE92 /* JongLeoyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEF3E91C4CB97200F0BE92 /* JongLeoyAppTests.swift */,
+				FCEEF3EB1C4CB97200F0BE92 /* Info.plist */,
+			);
+			path = JongLeoyAppTests;
+			sourceTree = "<group>";
+		};
+		FCEEF3F31C4CB97200F0BE92 /* JongLeoyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEF3F41C4CB97200F0BE92 /* JongLeoyAppUITests.swift */,
+				FCEEF3F61C4CB97200F0BE92 /* Info.plist */,
+			);
+			path = JongLeoyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEEF3D01C4CB97200F0BE92 /* JongLeoyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEF3F91C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyApp" */;
+			buildPhases = (
+				FCEEF3CD1C4CB97200F0BE92 /* Sources */,
+				FCEEF3CE1C4CB97200F0BE92 /* Frameworks */,
+				FCEEF3CF1C4CB97200F0BE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JongLeoyApp;
+			productName = JongLeoyApp;
+			productReference = FCEEF3D11C4CB97200F0BE92 /* JongLeoyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCEEF3E41C4CB97200F0BE92 /* JongLeoyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEF3FC1C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyAppTests" */;
+			buildPhases = (
+				FCEEF3E11C4CB97200F0BE92 /* Sources */,
+				FCEEF3E21C4CB97200F0BE92 /* Frameworks */,
+				FCEEF3E31C4CB97200F0BE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEEF3E71C4CB97200F0BE92 /* PBXTargetDependency */,
+			);
+			name = JongLeoyAppTests;
+			productName = JongLeoyAppTests;
+			productReference = FCEEF3E51C4CB97200F0BE92 /* JongLeoyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCEEF3EF1C4CB97200F0BE92 /* JongLeoyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEF3FF1C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyAppUITests" */;
+			buildPhases = (
+				FCEEF3EC1C4CB97200F0BE92 /* Sources */,
+				FCEEF3ED1C4CB97200F0BE92 /* Frameworks */,
+				FCEEF3EE1C4CB97200F0BE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEEF3F21C4CB97200F0BE92 /* PBXTargetDependency */,
+			);
+			name = JongLeoyAppUITests;
+			productName = JongLeoyAppUITests;
+			productReference = FCEEF3F01C4CB97200F0BE92 /* JongLeoyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEEF3C91C4CB97200F0BE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jessica Chayavichitsilp";
+				TargetAttributes = {
+					FCEEF3D01C4CB97200F0BE92 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FCEEF3E41C4CB97200F0BE92 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FCEEF3D01C4CB97200F0BE92;
+					};
+					FCEEF3EF1C4CB97200F0BE92 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FCEEF3D01C4CB97200F0BE92;
+					};
+				};
+			};
+			buildConfigurationList = FCEEF3CC1C4CB97200F0BE92 /* Build configuration list for PBXProject "JongLeoyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCEEF3C81C4CB97200F0BE92;
+			productRefGroup = FCEEF3D21C4CB97200F0BE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEEF3D01C4CB97200F0BE92 /* JongLeoyApp */,
+				FCEEF3E41C4CB97200F0BE92 /* JongLeoyAppTests */,
+				FCEEF3EF1C4CB97200F0BE92 /* JongLeoyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEEF3CF1C4CB97200F0BE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEF3DF1C4CB97200F0BE92 /* LaunchScreen.storyboard in Resources */,
+				FCEEF3DC1C4CB97200F0BE92 /* Assets.xcassets in Resources */,
+				FCEEF3DA1C4CB97200F0BE92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3E31C4CB97200F0BE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3EE1C4CB97200F0BE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEEF3CD1C4CB97200F0BE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEF4051C4CC51C00F0BE92 /* ShopTableViewCell.swift in Sources */,
+				FCEEF3D71C4CB97200F0BE92 /* ViewController.swift in Sources */,
+				FCEEF4071C4CC68800F0BE92 /* ShopTableViewController.swift in Sources */,
+				FCEEF3D51C4CB97200F0BE92 /* AppDelegate.swift in Sources */,
+				FCEEF4031C4CC32A00F0BE92 /* Shop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3E11C4CB97200F0BE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEF3EA1C4CB97200F0BE92 /* JongLeoyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEF3EC1C4CB97200F0BE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEF3F51C4CB97200F0BE92 /* JongLeoyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEEF3E71C4CB97200F0BE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEEF3D01C4CB97200F0BE92 /* JongLeoyApp */;
+			targetProxy = FCEEF3E61C4CB97200F0BE92 /* PBXContainerItemProxy */;
+		};
+		FCEEF3F21C4CB97200F0BE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEEF3D01C4CB97200F0BE92 /* JongLeoyApp */;
+			targetProxy = FCEEF3F11C4CB97200F0BE92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCEEF3D81C4CB97200F0BE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEEF3D91C4CB97200F0BE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCEEF3DD1C4CB97200F0BE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEEF3DE1C4CB97200F0BE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCEEF3F71C4CB97200F0BE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCEEF3F81C4CB97200F0BE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCEEF3FA1C4CB97200F0BE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JongLeoyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCEEF3FB1C4CB97200F0BE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JongLeoyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCEEF3FD1C4CB97200F0BE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JongLeoyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JongLeoyApp.app/JongLeoyApp";
+			};
+			name = Debug;
+		};
+		FCEEF3FE1C4CB97200F0BE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JongLeoyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JongLeoyApp.app/JongLeoyApp";
+			};
+			name = Release;
+		};
+		FCEEF4001C4CB97200F0BE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JongLeoyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JongLeoyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCEEF4011C4CB97200F0BE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JongLeoyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jongleoy.JongLeoyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JongLeoyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEEF3CC1C4CB97200F0BE92 /* Build configuration list for PBXProject "JongLeoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEF3F71C4CB97200F0BE92 /* Debug */,
+				FCEEF3F81C4CB97200F0BE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEEF3F91C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEF3FA1C4CB97200F0BE92 /* Debug */,
+				FCEEF3FB1C4CB97200F0BE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCEEF3FC1C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEF3FD1C4CB97200F0BE92 /* Debug */,
+				FCEEF3FE1C4CB97200F0BE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCEEF3FF1C4CB97200F0BE92 /* Build configuration list for PBXNativeTarget "JongLeoyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEF4001C4CB97200F0BE92 /* Debug */,
+				FCEEF4011C4CB97200F0BE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEEF3C91C4CB97200F0BE92 /* Project object */;
+}
