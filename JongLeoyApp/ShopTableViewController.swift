@@ -15,8 +15,8 @@ class ShopTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //loadSampleData()
-        loadRealData()
+        loadSampleData()
+        //loadRealData()
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -26,7 +26,7 @@ class ShopTableViewController: UITableViewController {
     }
     
     func loadSampleData() {
-        let photo1 = UIImage(named: "defaultPhoto")!
+        let photo1 = UIImage(named: "shop1")!
         let shop1 = Shop(
             name: "ANONYMOUS",
             address: "ANONYMOUS",
